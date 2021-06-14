@@ -15,6 +15,15 @@ public class MayATM {
 	 * trang thai da gan the
 	 */
 	private State status;
+
+
+	public MayATM(String address, double totalMoney) {
+		this.address = address;
+		this.totalMoney = totalMoney;
+	}
+	
+	
+	
 	
 	
 	
